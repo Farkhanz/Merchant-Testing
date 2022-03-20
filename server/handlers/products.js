@@ -1,5 +1,5 @@
 const { models } = require('../../storage');
-const { getIdParam, getMerchantIdParam } = require('../../helpers');
+const { getIdParam, getMerchantIdParam } = require('../helpers');
 
 async function getAll(req, res) {
     const merchantId = getMerchantIdParam(req)
